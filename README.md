@@ -1,8 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
-
+After moving the camera off the Cat GameObject, the camera will not follow the cat when I play the game and moving the cat.
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
