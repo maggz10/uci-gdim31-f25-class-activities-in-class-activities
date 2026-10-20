@@ -20,6 +20,13 @@ table #17
 A class is like a blueprint for a car. When the class becomes a Component in Unity, it can be attached to a GameObject to give it specific features and behaviors. Member variables are the car's traits, such as color, speed, and fuel level. Methods are the things the car can do. 
 
 The color of the ball gets brighter because the color multiplier keeps increasing every time it bounces.
+
+### W4
+table #17
+1. I added Rigidbodies to cat and soccer ball because they need to be doing physics simulations such as standing, bouncing. The Goal has is trigger setting checked on its collider because it does not need to be moved around.
+
+2. The game did not worked perfectly the first time I tried. I changed the cat w4 rigidbody to connect with Cat regidbody to fix it.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
