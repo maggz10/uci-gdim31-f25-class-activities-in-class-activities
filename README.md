@@ -27,6 +27,10 @@ table #17
 
 2. The game did not worked perfectly the first time I tried. I changed the cat w4 rigidbody to connect with Cat regidbody to fix it.
 
+### W5
+1. I need a Transform variable to store the target GameObject that the deer will walk towards. It should be [SerializeField] so I can assign the target in the Unity Inspector. I also need a NavMeshAgent variable to store the deer’s NavMeshAgent component.
+2. Start() method that runs once when the game begins.
+3. In Start(), use GetComponent<NavMeshAgent>() to get the NavMeshAgent component attached to the Deer GameObject. Also use the NavMeshAgent's SetDestination() method to tell the deer to walk toward the target's position.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
