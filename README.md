@@ -31,6 +31,14 @@ table #17
 1. I need a Transform variable to store the target GameObject that the deer will walk towards. It should be [SerializeField] so I can assign the target in the Unity Inspector. I also need a NavMeshAgent variable to store the deer’s NavMeshAgent component.
 2. Start() method that runs once when the game begins.
 3. In Start(), use GetComponent<NavMeshAgent>() to get the NavMeshAgent component attached to the Deer GameObject. Also use the NavMeshAgent's SetDestination() method to tell the deer to walk toward the target's position.
+
+### W7
+Activity 1: My part is Math, https://docs.google.com/document/d/1W83E18EwXXSdkScO6OmRU6EeHu7ACjFLijvjSUNB8QA/edit?usp=sharing
+Activity 2: 
+1. I need variables speed, cat, isChasing
+2. I need methods Start(), Update(), StartChasing(), StopChasing()
+3. Start() method should gets the Cat reference and calls StartChasing(). Update() method should checks isChasing. If it is true, the bat moves toward the Cat using its speed. StartChasing() method should sets isChasing to true. StopChasing() should sets isChasing to false.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
