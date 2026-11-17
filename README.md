@@ -39,6 +39,9 @@ Activity 2:
 2. I need methods Start(), Update(), StartChasing(), StopChasing()
 3. Start() method should gets the Cat reference and calls StartChasing(). Update() method should checks isChasing. If it is true, the bat moves toward the Cat using its speed. StartChasing() method should sets isChasing to true. StopChasing() should sets isChasing to false.
 
+### W8
+The code in Step 2 used Vector3.forward, which always moves the Muskrat in the world’s forward direction. This was incorrect because it did not account for the direction the Muskrat was facing. Using transform.forward fixes this because it moves the Muskrat in the direction it is currently facing.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
