@@ -42,6 +42,12 @@ Activity 2:
 ### W8
 The code in Step 2 used Vector3.forward, which always moves the Muskrat in the world’s forward direction. This was incorrect because it did not account for the direction the Muskrat was facing. Using transform.forward fixes this because it moves the Muskrat in the direction it is currently facing.
 
+### W9
+This is the drawing:
+https://docs.google.com/document/d/1R4EA6nM4H4N9eVCOL5yd7b_DKLYYtCJnHjEnYstXoxs/edit?usp=sharing
+
+In today's class, I did the drawing and basic planning of my final. I forked the 2d example and started on the environment.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
